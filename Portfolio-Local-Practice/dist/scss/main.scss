@@ -1,0 +1,99 @@
+$Accent-color: antiquewhite;
+$Text-main-color: hotpink;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&display=swap');
+
+body{
+
+    background-color: $Accent-color;
+    color: $Text-main-color;
+}
+table{
+    top: -200px;
+	font-family: Tahoma;
+	margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+.card {
+    // width: 130px;
+    // height: 195px;
+    position: relative;
+    display: inline-block;
+}
+.card .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.card:hover .img-top {
+    display: inline;
+}
+
+.text{
+    height: 20px;
+    width: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border:  1px solid $Accent-color;
+    box-sizing: border-box;
+  
+
+}
+button{
+    height: 50px;
+    width: 175px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    border:  1px solid $Accent-color;
+    color: $Text-main-color;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 45px;
+    
+}
+
+button :hover{
+    background-color:black;
+    color: white;
+}
+a{
+    background-color: $Accent-color;
+    color: $Text-main-color;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+nav{
+    height: 50px;
+   
+    justify-content: center;
+    justify-items: center;
+    justify-self: baseline;
+    padding-top: 2px;
+    display: inline;
+}
+ul#menu li {
+    // height: 150px;
+    background-color: rgb(235, 254, 255);
+    display:inline-block;
+    inline-size: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $Text-main-color;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 20px;
+  }
+  
